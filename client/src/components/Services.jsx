@@ -2,6 +2,7 @@ import React from 'react'
 
 /* Components */
 import Navbar from './Navbar.jsx'
+import Footer from './Footer.jsx'
 
 class Services extends React.Component {
   state = {
@@ -20,6 +21,7 @@ class Services extends React.Component {
             )
           })} 
         </div>
+        <Footer />
       </div>
     )
   }

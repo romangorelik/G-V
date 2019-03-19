@@ -2,8 +2,13 @@ import React from 'react'
 
 /* Components */
 import Navbar from './Navbar.jsx'
+import Footer from './Footer.jsx'
 
 class Home extends React.Component {
+  state = {
+    
+  }
+
   render () {
     return (
       <div>
@@ -50,9 +55,7 @@ class Home extends React.Component {
 
         </div>
 
-        <footer>
-          <p>Footer</p>
-        </footer>
+        <Footer />
       </div>
     )
   }
