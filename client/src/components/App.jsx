@@ -1,12 +1,15 @@
 import React from 'react'
 
+/* Components */
+import Main from './Main.jsx'
+
 class App extends React.Component {
   state = {}
 
   render () {
     return (
       <div>
-        Hello world
+        <Main />
       </div>
     )
   }
