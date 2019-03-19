@@ -1,14 +1,14 @@
 import React from 'react'
 
 /* Components */
-import Header from './Header.jsx'
+import Navbar from './Navbar.jsx'
 
 class Contact extends React.Component {
   render () {
     return (
       <div>
         Contact
-        <Header/>
+        <Navbar/>
       </div>
     )
   }

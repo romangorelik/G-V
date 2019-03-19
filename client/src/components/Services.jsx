@@ -1,7 +1,7 @@
 import React from 'react'
 
 /* Components */
-import Header from './Header.jsx'
+import Navbar from './Navbar.jsx'
 
 class Services extends React.Component {
   state = {
@@ -10,7 +10,7 @@ class Services extends React.Component {
   render () {
     return (
       <div>
-        <Header/>
+        <Navbar/>
         <div className='service'> 
           {this.state.arr.map(x => {
             return (

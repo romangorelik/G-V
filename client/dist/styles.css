@@ -22,6 +22,9 @@ body {
     display: flex;
     justify-content: space-evenly;
     padding: 20px;
+    z-index: 10;
+    font-family: proxima-nova, sans-serif;
+    font-size: 20px;
   }
 
   a:visited {
@@ -37,4 +40,167 @@ body {
   .service {
     margin-top: 70px;
   }
+
+  /* Home Page */
+  .parallax {
+    margin-top: 55px;
+  }
+
+  .mainBackground {
+    background: linear-gradient(to right, black, 30%, transparent), url("https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80") no-repeat center; 
+    height: 75vh; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex: row;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .genaBackground {
+    background-image: linear-gradient(to left, black, 30%, transparent), url("https://images.unsplash.com/photo-1530046614490-89e6f776b83b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1800&q=80");
+    height: 50vh; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex: row;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .vladBackground {
+    background-image: linear-gradient(to right, black, 30%, transparent), url("https://images.unsplash.com/photo-1531185907801-2771c11ab782?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1666&q=80");
+    height: 50vh; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex: row;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .description {
+    width: 400px;
+    height: 400px;
+    margin-left: 10%;
+    text-align: justify;
+  }
+
+  .descriptionTitle {
+    text-align: center;
+    color: #b5c2d8;
+    font-family: proxima-nova, sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+  }
+
+  .descriptionText {
+    margin-top: 10px;
+    line-height: 1.5;
+    color: white;
+    font-family: proxima-nova, sans-serif;
+    font-size: 20px;
+    font-style: italic;
+  }
+
+  .genaContainer {
+    display: flex;
+    margin-right: 75px;
+  }
+
+  .genaPicture {
+    width: 250px;
+    height: 200px;
+    margin-right: 5%;
+    margin-left: -5%;
+  }
+
+  .genaImage {
+    max-width: 250px;
+    max-height: 200px;
+    border: black 2px solid;
+  }
+
+  .genaDescription {
+    width: 400px;
+    height: 100%;
+    text-align: justify;
+  }
+
+  .genaTitle {
+    text-align: center;
+    color: #b5c2d8;
+    font-family: proxima-nova, sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+  }
+
+  .genaText {
+    margin-top: 10px;
+    color: white;
+    font-family: proxima-nova, sans-serif;
+    font-size: 20px;
+    font-style: italic;
+  }
+
+  .vladContainer {
+    display: flex;
+    margin-left: 75px;
+  }
+
+  .vladPicture {
+    width: 250px;
+    height: 200px;
+    margin-right: 5%;
+    margin-left: -5%;
+  }
+
+  .vladImage {
+    max-width: 250px;
+    max-height: 200px;
+    border: black 2px solid;
+  }
+
+  .vladDescription {
+    width: 400px;
+    height: 100%;
+    margin-right: 10%;
+    text-align: justify;
+  }
+
+  .vladTitle {
+    text-align: center;
+    color: #b5c2d8;
+    font-family: proxima-nova, sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+  }
+
+  .vladText {
+    margin-top: 10px;
+    color: white;
+    font-family: proxima-nova, sans-serif;
+    font-size: 20px;
+    font-style: italic;
+  }
+
+
+
+
+
+
+
+  footer {
+    height: 100px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex: row;
+    align-items: center;
+    justify-content: center;
+  }
+
 }
