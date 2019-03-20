@@ -12,7 +12,7 @@ body {
 
 /* Background */
 
-@media only screen and (min-width: 680px) {
+@media only screen and (min-width: 768px) {
   /*********** NAV BAR ***********/
 
   nav {
@@ -186,6 +186,125 @@ body {
     font-size: 20px;
     font-style: italic;
   }
+
+  /********************************/
+
+
+  /********** SERVICE *************/
+
+  .service {
+    margin-top: 50px;
+    background: linear-gradient(black 5%,
+    transparent 15%,
+    transparent 85%,
+    black 98%), url("https://images.unsplash.com/photo-1493994055174-cfa612a0d07c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=80") no-repeat center; 
+    height: 100vh; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .serviceContainer {
+    width: 85%;
+    height: 90%;
+    border: 1px red dashed;
+    display: flex;
+    flex-flow: row wrap;
+    margin: 2%;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .firstContainer {
+    width: 40%;
+    height: 90%;
+    border: 1px red dashed;
+  }
+
+  .secondContainer {
+    width: 35%;
+    height: 90%;
+    border: 1px red dashed;
+  }
+
+  .serviceName {
+    color: white;
+    font-size: 36px;
+    float: left;
+  }
+
+  .servicePrice {
+    color: white;
+    text-align: right;
+    font-size: 16px;
+  }
+
+  .serviceTime {
+    text-align: right;
+    color: white;
+    font-size: 16px;
+  }
+
+  /********************************/
+
+
+  /********** CONTACT *************/
+
+  .contact {
+    background: linear-gradient(black 5%,
+    transparent 15%,
+    transparent 85%,
+    black 98%), url("https://images.unsplash.com/photo-1530124566582-a618bc2615dc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80") no-repeat center; 
+    height: 90vh; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contactContainer {
+    margin-top: 2%;
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .helpBox {
+    height: 70%;
+    width: 70%;
+    margin: 0% 2.5%;
+    font-size: 16px;
+    border-radius: 2px;
+    padding: 5px;
+  }
+
+  .fullName {
+    margin: 0% 1.7%;
+    height: 30px;
+    width: 33%;
+    font-size: 16px;
+    border-radius: 2px;
+    padding: 2.5px;
+  }
+
+  .submitButton {
+    width: 71.2%;
+    height: 10%;
+    border-radius: 2px;
+    
+  }
+
 
   /********************************/
 
