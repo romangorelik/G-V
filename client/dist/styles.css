@@ -183,6 +183,7 @@ a:link {
     max-width: 150px;
     max-height: 150px;
     display: none;
+    background: linear-gradient(to right, #1681c5, #023c6d);
   }
 
   .contactInfo {

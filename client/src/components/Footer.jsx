@@ -19,7 +19,7 @@ class Footer extends React.Component {
           </div>
 
           <div>
-            <img className='logo' src='https://www.freelogodesign.org/Content/img/logo-ex-7.png'/>
+            <img className='logo' src='https://i.imgur.com/5DLRVfD.png'/>
           </div>
 
           <div className='contactInfo'>
