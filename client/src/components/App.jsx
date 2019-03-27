@@ -1,7 +1,7 @@
 import React from 'react'
 
 /* Components */
-import Main from './Main.jsx'
+import Home from './Home.jsx'
 
 class App extends React.Component {
   state = {}
@@ -9,7 +9,7 @@ class App extends React.Component {
   render () {
     return (
       <div>
-        <Main />
+        <Home />
       </div>
     )
   }

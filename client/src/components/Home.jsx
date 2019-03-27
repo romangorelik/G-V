@@ -1,7 +1,6 @@
 import React from 'react'
 
 /* Components */
-import Navbar from './Navbar.jsx'
 import Footer from './Footer.jsx'
 
 class Home extends React.Component {
@@ -12,7 +11,6 @@ class Home extends React.Component {
   render () {
     return (
       <div>
-        <Navbar/>
 
         <div className='parallax'>
           <div className='mainBackground'>
@@ -48,7 +46,7 @@ class Home extends React.Component {
               </div>
 
               <div className='vladPicture'>
-                <img className='vladImage' src='https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500'/>
+                <img className='vladImage' src='https://i.imgur.com/Ymt0Jbm.jpg'/>
               </div>
             </div>
           </div>
