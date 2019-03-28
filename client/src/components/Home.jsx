@@ -22,6 +22,7 @@ class Home extends React.Component {
                 of services, and will never talk you into something you don't need. The two owners met when they were coworkers
                 and decided to go into business together.
               </p>
+              <p className='hebrew'>שומר שבת</p>
             </div>
           </div>
 
