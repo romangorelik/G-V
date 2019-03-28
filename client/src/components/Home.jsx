@@ -17,10 +17,10 @@ class Home extends React.Component {
             <div className='description'>
               <p className='descriptionTitle'>G & V AUTO CLINIC</p>
               <p className='descriptionText'>
-                Established in 2005, G & V Auto Clinic services the Bensonhurst area.
-                Established in 2005, G & V Auto Clinic services the Bensonhurst area.
-                Established in 2005, G & V Auto Clinic services the Bensonhurst area.
-                Established in 2005, G & V Auto Clinic services the Bensonhurst area.
+                Established in 2002, G & V Auto Clinic has been servicing the Kensington area in Brooklyn, NY.
+                A Belarussian owned shop, we strive for excellence, fairness, and quick results. We offer a variety
+                of services, and will never talk you into something you don't need. The two owners met when they were coworkers
+                and decided to go into business together.
               </p>
             </div>
           </div>
@@ -28,21 +28,24 @@ class Home extends React.Component {
           <div className='genaBackground'>
             <div className='genaContainer'>
               <div className='genaPicture'>
-                <img className='genaImage' src='https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80'/>
+                <img className='genaImage' src='https://i.imgur.com/tYvNnwi.jpg'/>
               </div>
 
               <div className='genaDescription'>
                 <p className='genaTitle'>Gennadiy Gorelik</p>
-                <p className='genaText'>Owner and founder Owner and founder Owner and founder Owner and founder Owner and founder Owner and founder Owner and founder</p>
+                <p className='genaText'>Coming over from Belarus in 1994, Gennadiy has been working in the industry for over 30 years. He opened G & V 
+                to offer fair prices, as well as excellent service to the entire community.</p>
               </div>
             </div>
           </div>
 
+
           <div className='vladBackground'>
             <div className='vladContainer'>
               <div className='vladDescription'>
-                <p className='vladTitle'>Gennadiy Gorelik</p>
-                <p className='vladText'>Owner and founder Owner and founder Owner and founder Owner and founder Owner and founder Owner and founder Owner and founder</p>
+                <p className='vladTitle'>Vlad Shakov</p>
+                <p className='vladText'>After finishing an auto-technical school in Belarus, Vlad had come over to New York in 1995. His attention to detail,
+                as well as his accumulated expertise for over 25 years makes him an extremely skillful mechanic, and great owner.</p> 
               </div>
 
               <div className='vladPicture'>
@@ -52,6 +55,8 @@ class Home extends React.Component {
           </div>
 
         </div>
+
+        <div className='mobileText'>Mobile Coming Soon...</div>
 
         <Footer />
       </div>
