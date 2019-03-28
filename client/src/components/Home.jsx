@@ -44,7 +44,7 @@ class Home extends React.Component {
             <div className='vladContainer'>
               <div className='vladDescription'>
                 <p className='vladTitle'>Vlad Shakov</p>
-                <p className='vladText'>After finishing an auto-technical school in Belarus, Vlad had come over to New York in 1995. His attention to detail,
+                <p className='vladText'>After finishing an auto-technical school in Belarus, Vlad had come over to New York in 1999. His attention to detail,
                 as well as his accumulated expertise for over 25 years makes him an extremely skillful mechanic, and great owner.</p> 
               </div>
 
