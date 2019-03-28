@@ -6,6 +6,7 @@ html {
 body {
   height: 100%;
   overflow: auto;
+  background-color: black;
 }
 
 * { padding: 0; margin: 0;}
@@ -21,11 +22,6 @@ a:link {
 }
 
 
-@media only screen and (orientation: portrait) {
-  body {
-    background-color: black;
-  }
-}
 
 
 /************ FOOTER ************/
@@ -75,7 +71,7 @@ hr {
 
   .genaBackground {
     background-image: linear-gradient(to left, black, 30%, transparent), url("https://images.unsplash.com/photo-1530046614490-89e6f776b83b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1800&q=80");
-    height: 50vh; 
+    height: 75vh; 
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -87,7 +83,7 @@ hr {
 
   .vladBackground {
     background-image: linear-gradient(to right, black, 30%, transparent), url("https://images.unsplash.com/photo-1531185907801-2771c11ab782?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1666&q=80");
-    height: 50vh; 
+    height: 75vh; 
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
