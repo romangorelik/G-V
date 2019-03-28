@@ -18,7 +18,7 @@ class Home extends React.Component {
               <p className='descriptionTitle'>G & V AUTO CLINIC</p>
               <p className='descriptionText'>
                 Established in 2002, G & V Auto Clinic has been servicing the Kensington area in Brooklyn, NY.
-                A Belarussian owned shop, we strive for excellence, fairness, and quick results. We offer a variety
+                We strive for excellence, fairness, and quick results. We offer a variety
                 of services, and will never talk you into something you don't need. The two owners met when they were coworkers
                 and decided to go into business together.
               </p>
