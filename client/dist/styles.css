@@ -237,12 +237,6 @@ hr {
     background: linear-gradient(to right, #1681c5, #023c6d);
   }
 
-  .contactInfo {
-    font-family: proxima-nova, sans-serif;
-    text-align: right;
-    font-size: 15px;
-  }
-
   hr {
     height: 2px;
     visibility: hidden;
