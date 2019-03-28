@@ -21,25 +21,12 @@ a:link {
 }
 
 
-@media only screen and (max-width: 785px) {
+@media only screen and (orientation: portrait) {
   body {
     background-color: black;
   }
-
-  .genaPicture {
-    display: none;
-  }
-
-  .vladPicture {
-    display: none;
-  }
-
-  .mobileText {
-    text-align: center;
-    color: white;
-    font-size: 45px;
-  }
 }
+
 
 /************ FOOTER ************/
 
