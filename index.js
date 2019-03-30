@@ -11,4 +11,4 @@ app.get('/*', (req, res) => {
   res.sendFile(path.join(__dirname, '/client/dist/')
 )})
 
-app.listen(80, () => {console.log('Listening to Port 4000!')})
+app.listen(4000, () => {console.log('Listening to Port 4000!')})
